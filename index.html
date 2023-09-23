@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="dark light">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
     <title>Закрывающий тег</title>
-    <link rel="icon" href="./images/favicon.ico" sizes="any">
-    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
-    <link rel="stylesheet" href="./fonts/fonts.css">
-    <link rel="stylesheet" href="./styles/variables.css">
-    <link rel="stylesheet" href="./styles/globals.css">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/animations.css">
-    <link rel="stylesheet" href="./styles/themes.css">
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/animations.css" />
+    <link rel="stylesheet" href="./styles/themes.css" />
     <script src="./scripts/set-theme.js"></script>
   </head>
   <body class="page">
@@ -67,7 +67,7 @@
               class="card__image image invert"
               alt="Медный шар с пирамидальными выступами"
               loading="lazy"
-            >
+            />
           </div>
           <div class="card__paragraph">
             <p class="card__text">
@@ -131,7 +131,7 @@
               class="card__image image brightness"
               alt="Небо в окружении небоскребов"
               loading="lazy"
-            >
+            />
           </div>
           <div class="card__paragraph">
             <p class="card__text">
@@ -196,7 +196,7 @@
               class="card__image image contrast"
               alt="Экран ноутбука во тьме в стиле матрицы"
               loading="lazy"
-            >
+            />
           </div>
           <div class="card__paragraph">
             <p class="card__text">
@@ -259,7 +259,7 @@
               class="card__image image hue-rotate"
               alt="Разноцветные искры"
               loading="lazy"
-            >
+            />
           </div>
           <div class="card__paragraph">
             <p class="card__text">
@@ -324,7 +324,7 @@
               class="card__image image contrast-brightness"
               alt="Ночной мегаполис после дождя"
               loading="lazy"
-            >
+            />
           </div>
           <div class="card__paragraph">
             <p class="card__text">
@@ -390,7 +390,7 @@
               class="card__image image saturate"
               alt="Ночная улица восточного города"
               loading="lazy"
-            >
+            />
           </div>
           <div class="card__paragraph">
             <p class="card__text">
@@ -453,7 +453,7 @@
               class="card__image image sepia"
               alt="Мегаполис в сине-фиолетовых оттенках"
               loading="lazy"
-            >
+            />
           </div>
           <div class="card__paragraph">
             <p class="card__text">
@@ -516,7 +516,7 @@
               class="card__image image blur"
               alt="Мутное изображение с надписью Game Over"
               loading="lazy"
-            >
+            />
           </div>
           <div class="card__paragraph">
             <p class="card__text">
@@ -590,13 +590,11 @@
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <h2 class="dialog__title">Вставьте дискету, чтобы продолжить</h2>
-        <button
-          class="dialog__button button"
-          type="button"
-          onclick="window['dialog'].close()"
-        >
-          ок
-        </button>
+        <form method="dialog" class="dialog__form-button">
+          <button class="dialog__button button section_button">
+            <span class="button__text">ок</span>
+          </button>
+        </form>
       </dialog>
     </main>
     <script src="./scripts/like.js"></script>

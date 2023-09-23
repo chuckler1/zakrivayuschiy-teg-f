@@ -357,8 +357,12 @@
   text-transform: uppercase;
 }
 
-.dialog__button {
+.dialog__form-button {
   grid-column: span 2;
+  inline-size: 100%;
+}
+
+.dialog__button {
   border: 3px solid currentColor;
   padding-block: 9px;
   text-transform: uppercase;
