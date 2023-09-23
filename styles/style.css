@@ -325,6 +325,8 @@
 }
 
 .dialog:is([open]) {
+  position: fixed;
+  inset: 0;
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(2, auto);
@@ -341,7 +343,6 @@
 }
 
 .dialog:is([open])::backdrop {
-  position: fixed;
   background-color: rgba(0, 0, 0, 0.75);
 }
 
