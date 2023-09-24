@@ -177,6 +177,10 @@
   padding: 25px;
 }
 
+.card__text {
+  line-height: 1.166;
+}
+
 .card__wrapper-like_buttons {
   display: flex;
   gap: 5px;
