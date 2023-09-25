@@ -30,7 +30,7 @@
   margin: 0 auto;
   border: 2px solid currentColor;
   background-color: var(--bg-color);
-  inline-size: clamp(375px, 60%, 696px);
+  inline-size: clamp(375px, 60%, 700px);
 }
 
 .header {
@@ -230,7 +230,8 @@
 
 .card__like-button {
   margin-block-start: 2px;
-  padding: 10px 35px;
+  inline-size: 130px;
+  block-size: 38px;
 }
 
 .like-icon {
